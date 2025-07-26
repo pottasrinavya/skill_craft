@@ -1,0 +1,38 @@
+📊 Task 01 - Bar Chart & Histogram Visualization
+This project is a simple data visualization task aimed at creating bar charts to represent the distribution of categorical and continuous variables using Python.
+
+📝 Task Description
+Objective:
+Create a bar chart or histogram to visualize the distribution of a categorical or continuous variable, such as the distribution of ages or genders in a population.
+
+Based on the Task Image:
+
+Distribution by gender
+
+Distribution by age groups
+
+🧪 Requirements
+Install the required libraries using:
+
+bash
+
+pip install pandas matplotlib
+🚀 How to Run
+
+python task_1.py
+You will see:
+
+A bar chart showing gender distribution.
+
+A bar chart showing age group distribution.
+
+📷 Output Example
+The code will generate two charts:
+
+Gender Distribution (skyblue for Male, pink for Female)
+
+Age Group Distribution (light green for different age ranges: 21–30, 31–40, etc.)
+
+🧑‍💻 Author
+SkillCraft Technology Internship – Data Science
+Contributor: Sri navya
