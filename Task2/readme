@@ -1,0 +1,69 @@
+🛳️ Task 02 – Exploratory Data Analysis on Titanic Dataset
+This project performs data cleaning and exploratory data analysis (EDA) on the Titanic dataset using Python. The goal is to explore the relationships between different variables and uncover patterns and trends, especially those affecting passenger survival.
+
+📌 Task Overview
+Perform data cleaning and exploratory data analysis (EDA) on a dataset of your choice — here we use the Titanic Dataset available in Seaborn or from Kaggle.
+
+📁 Files Included
+task-2.py – Python script that includes:
+
+Data cleaning
+
+Summary statistics
+
+Visualizations and insights
+
+fc7ec3f4-1fc2-49ee-9baa-cac70c5f06f1.png – Reference image for the task description.
+
+README.md – This file.
+
+📦 Requirements
+
+pip install pandas seaborn matplotlib numpy
+📊 Key Exploratory Analysis Performed
+Data Cleaning
+
+Removed columns with excessive null values (deck, embark_town, alive)
+
+Filled missing age with median
+
+Filled missing embarked values with mode
+
+Dropped any remaining missing values
+
+Descriptive Statistics
+
+Used .describe() and .info() to summarize and understand the dataset
+
+Visualizations
+
+✅ Gender distribution
+
+✅ Survival count by gender
+
+✅ Passenger class distribution
+
+✅ Age distribution (histogram with KDE)
+
+✅ Survival rate by class (bar plot)
+
+✅ Correlation heatmap for numeric variables
+
+✅ Survival by age group (child, teen, adult, etc.)
+
+✅ Survival by embarkation port
+
+📷 Output Snapshots (Visuals)
+The script will display multiple charts with valuable insights into:
+
+Which groups had higher survival rates
+
+Age and class impact on survival
+
+Port of embarkation and survival distribution
+
+
+
+👤 Author
+SkillCraft Technology Internship – Data Science
+Contributor: Sri navya
