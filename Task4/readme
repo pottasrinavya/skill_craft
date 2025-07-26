@@ -1,0 +1,49 @@
+🚦 Task 04 – Traffic Accident Data Analysis
+This project focuses on analyzing traffic accident data to identify patterns related to road conditions, weather, and time of day. It also includes visualization of accident hotspots and identification of contributing factors using simulated accident data.
+
+📦 Requirements
+pip install pandas numpy
+pip install matplotlib seaborn folium
+(for visualizations, mapping, and deeper analysis if extended)
+
+📝 Dataset Description
+This project uses a synthetic dataset generated with:
+
+accident_time: Random hourly timestamps
+
+weather: Categorical weather condition (e.g., Clear, Rain, Fog, Snow)
+
+road_condition: Type of road surface (Dry, Wet, Icy)
+
+latitude, longitude: Simulated coordinates for mapping accident locations
+
+Sample:
+  accident_time weather road_condition  latitude  longitude
+0         07:00   Clear            Dry  51.5836  -0.0679
+1         00:00    Snow            Wet  51.5975  -0.0480
+📊 Objective
+🔍 Analyze how weather and road conditions contribute to accidents.
+
+🕒 Examine the time-of-day patterns (e.g., night vs. day).
+
+📍 Visualize accident hotspots using geolocation.
+
+🔧 How It Works
+Step 1: Generate random accident records using numpy and pandas
+
+Step 2: Analyze distributions using grouping and counting
+
+Step 3: (Optional) Extend using matplotlib, seaborn, or folium for heatmaps
+
+🧠 Learning Outcome
+You’ll learn how to:
+
+Work with categorical and geospatial data
+
+Simulate and analyze real-world-like datasets
+
+Build the foundation for geospatial visualization of accidents
+
+👤 Author
+SkillCraft Technology Internship – Data Science
+Contributor: Sri navya
